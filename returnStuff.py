@@ -1,12 +1,13 @@
-def returnS():
-  pass
+# def returnS():
+  # pass
 
 ########################################################################################################################
     # allow us to create blocks of code that can be easily executed  many times and in different contexts without the need to rewrite the entire block
   # Return Practice #1
   # Create a function called power that takes two numeric values as arguments. It must return the number that results from solving a power, 
   # using the first number as the base, and the second as the exponent:
-
+def power(num1,num2):
+  return num1**num2
 
 
 
@@ -19,7 +20,9 @@ def returnS():
 # Create a variable called dollars and store any amount in it. Then, pass it to your function and evaluate its result.
 
 # Hint: to perform the conversion, the function internally must multiply this value in dollars by 0.90 to obtain the equivalent amount in euros.
-
+def usd_to_eur(usd):
+  return usd*0.90
+  
 
 
 
@@ -35,3 +38,7 @@ def returnS():
 # Also, you must create a variable called word, which contains any string, to pass it as an argument to the created function.
 
 # Hint: inside the created function, you should use string methods already seen.
+
+def reverse_word(word):
+  word=word.upper()
+  return word.reverse()
