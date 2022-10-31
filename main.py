@@ -9,7 +9,8 @@
 from dynamic_functions import check_3Digits
 
 
-result=check_3Digits(7)
+# sum=526+345
+result=check_3Digits([55,99,600,780,48,120,65,666,37,17,975,17175145,])
 print(result)
 # method_help()
 # function()
